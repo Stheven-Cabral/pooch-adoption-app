@@ -3,8 +3,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { Caveat, Inter } from "next/font/google";
 
-const caveat = Caveat();
-const inter = Inter();
+const caveat = Caveat({
+  subsets: ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+});
+const inter = Inter({
+  subsets: [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese",
+  ],
+});
 
 export const metadata: Metadata = {
   title: "Pooch Finder",
