@@ -11,3 +11,14 @@ To run the website locally, follow these steps:
 3. Install the dependencies by running `npm install`.
 4. Start the development server by running `npm run dev`.
 5. Open a web browser and visit `http://localhost:3000` to view the website.
+
+## Technologies Used
+
+Next.js
+React
+Bootstrap
+Javascript
+Typescript
+Axios
+Framer Motion
+CSS Modules
