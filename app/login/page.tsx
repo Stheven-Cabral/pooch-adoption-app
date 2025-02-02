@@ -29,6 +29,7 @@ const Login = () => {
         router.push("/search");
       }
     } catch (err) {
+      console.error("Error logging in:", err);
       setError("Failed to authenticate. Please try again.");
     }
   };
